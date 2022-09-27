@@ -1,0 +1,29 @@
+.borders{
+    border: 15px solid black;
+   
+}
+.buttons{
+    padding:10px 25px;
+    font-weight: bold;
+    color: skyblue;
+    background-color: whitesmoke;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+}
+.every-moment-text{
+    color: #0A0826;
+}
+.explore{
+    color: whitesmoke;
+    background-color: #3F87F5;
+    padding: 10px 25px;
+    border: none;
+}
+
+
+@media only screen and (max-width:688px) {
+   .every-moment{
+    text-align: center;
+   }
+}
+    
