@@ -10,7 +10,8 @@
     border: 2px solid skyblue;
     border-radius: 5px;
 }
-.every-moment-text{
+
+.text-heading{
     color: #0A0826;
 }
 .explore{
@@ -19,7 +20,55 @@
     padding: 10px 25px;
     border: none;
 }
+.plan-button{
+    
+    color: #3F87F5;
+    font-weight: bold;
+    width: 70%;
+    background-color: rgba(209, 187, 187, 0.486);
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 0;
+}
+.plan-button-spc{
+    
+    color: #3F87F5;
+    font-weight: bold;
+    width: 80%;
+    background-color: rgba(253, 251, 251, 0.973);
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 0;
+}
 
+.package-bg{
+    background-color: #3F87F5;
+    background-image: url(images/icons/watermark.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: whitesmoke;
+}
+.check{
+    color: rgb(30, 54, 30);
+}
+.spans {
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    background-color: rgb(199, 0, 0);
+    width: 50px;
+    height: 25px;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
 
 @media only screen and (max-width:688px) {
    .every-moment{
