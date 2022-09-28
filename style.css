@@ -12,7 +12,7 @@
 }
 
 .text-heading{
-    color: #0A0826;
+    color: #393858;
 }
 .explore{
     color: whitesmoke;
@@ -65,14 +65,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-    
+}
+.shadows{
+    box-shadow: 10px 30px 20px #81a7df;
+}
+.qa-img{
+    width: 500px;
 }
 
-@media only screen and (max-width:688px) {
+.accordions{
+    width: 700px;
+    margin-bottom: 25px;
+}
+
+.spacing{
+    margin-bottom: 150px;
+}
+
+.footer-bg{
+    background-color: #11152b;
+}
+
+@media only screen and (max-width:992px) {
    .every-moment{
     text-align: center;
+   }
+
+   .qa-img{
+    width: 100%;
+   }
+
+   .accordions{
+    width: 100%;
    }
 }
     
